@@ -68,6 +68,22 @@ h6 {
   --bs-btn-disabled-border-color: #a08c7e;
 }
 
+/* nav */
+
+.nav-link {
+  font-weight: bold;
+  color: #8b4513;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #ffc0cb;
+}
+
+.nav-link.active {
+  color: #a08c7e !important;
+}
+
 /* Font */
 .lato-thin {
   font-family: "Lato", sans-serif;

@@ -1,0 +1,35 @@
+:root {
+  --bs-body-bg: #f8f9fa;
+  --bs-primary: #f8bbd0;
+  --bs-primary-rgb: 248, 187, 208;
+  --bs-secondary: #fff9c4;
+  --bs-secondary-rgb: 255, 249, 196;
+  --bs-success: #c8e6c9;
+  --bs-success-rgb: 200, 230, 201;
+  --bs-info: #b3e5fc;
+  --bs-info-rgb: 179, 229, 252;
+  --bs-warning: #ffccbc;
+  --bs-warning-rgb: 255, 204, 188;
+  --bs-danger: #ffccbc;
+  --bs-danger-rgb: 255, 204, 188;
+  --bs-dark: #6d4c41;
+  --bs-dark-rgb: 109, 76, 65;
+  --strawberry: #ffcdd2;
+  --blueberry: #c5cae9;
+  --lemon: #fff59d;
+  --cinnamon: #d7ccc8;
+
+  .bg-strawberry {
+    background-color: var(--strawberry);
+  }
+
+  .bg-blueberry {
+    background-color: var(--blueberry);
+  }
+  .bg-lemon {
+    background-color: var(--lemon);
+  }
+  .bg-cinnamon {
+    background-color: var(--cinnamon);
+  }
+}

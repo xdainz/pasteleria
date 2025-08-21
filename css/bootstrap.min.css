@@ -7525,10 +7525,11 @@ fieldset:disabled .btn {
 }
 .border-secondary {
   --bs-border-opacity: 1;
-  border-color: rgba(
-    var(--bs-secondary-rgb),
-    var(--bs-border-opacity)
-  ) !important;
+  border-color: var(--bs-secondary) !important;
+}
+.border-marron-oscuro {
+  --bs-border-opacity: 1;
+  border-color: #5d403770 !important;
 }
 .border-success {
   --bs-border-opacity: 1;
@@ -8299,6 +8300,11 @@ fieldset:disabled .btn {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;
 }
+
+.text-crema-pastel {
+  color: #fff5e1 !important;
+}
+
 .text-muted {
   --bs-text-opacity: 1;
   color: var(--bs-secondary-color) !important;

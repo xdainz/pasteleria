@@ -1,0 +1,40 @@
+body {
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.color-card {
+  height: 180px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.color-card:hover {
+  transform: translateY(-5px);
+}
+.color-code {
+  background-color: var(--bs-body-bg);
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.color-name {
+  font-weight: 500;
+  margin-top: 10px;
+  color: #333;
+}
+.category-title {
+  padding: 10px;
+  margin: 30px 0 20px 0;
+  color: black;
+  border-radius: 5px;
+  text-align: center;
+}

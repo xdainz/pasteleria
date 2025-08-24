@@ -81,4 +81,13 @@
     color: var(--bs-dark);
     background-color: var(--bs-primary);
   }
+
+  .footer-text {
+    color: #6d4c4181;
+    transition: color 0.15s ease-in-out;
+  }
+
+  .footer-text:hover {
+    color: var(--bs-dark);
+  }
 }

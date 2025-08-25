@@ -40,7 +40,7 @@
   }
 
   .btn-outline-primary:hover {
-    color: var(--frost-white);
+    color: var(--bs-dark);
     background-color: var(--bs-primary);
   }
 

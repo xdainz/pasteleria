@@ -51,7 +51,7 @@
   }
 
   .btn-primary {
-    color: var(--frost-white);
+    color: var(--bs-dark);
     background-color: var(--bs-primary);
     border-color: var(--bs-primary);
   }
